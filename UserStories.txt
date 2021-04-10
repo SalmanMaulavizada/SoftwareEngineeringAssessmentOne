@@ -1,0 +1,1 @@
+User story 1: As a scientist, i want the security software to be running 24/7 so that i can conduct my research and data collection safely without any distractions from animals or weather hazards.
