@@ -4,7 +4,7 @@ User story 2: As a security guard, i want surveillance cameras to be equipped wi
 
 User story 3: As a mechanic on base, i want the vehicles to be equipped with gpstracking software, so that im aware of the location at all times and the vehicles are available whenever needed.
 
-User story 4: As a scientist i need the data storage to be constantly backed up every 3 hours so that the data we collect has no risk of getting corrupted or lost.
+User story 4: As a scientist i need the data storage to be constantly backed up` so that the data we collect has no risk of getting corrupted or lost.
 
 User story 5: As a technician on base, i want an extra set of solar panels and wind turbines in case they get damaged by the frequent blizzards, so that we can have more sources of backup power.
 
