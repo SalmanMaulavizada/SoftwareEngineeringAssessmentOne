@@ -1,0 +1,23 @@
+Use Case 1: User Story 9
+	Goal: To implement automated weather monitoring systems with alerts
+
+	Primary Actor: Technician
+	Secondary Actor: Scientists
+	Precondition: System must be activated by the technician
+	Trigger: The weather/temperature exceeds the limits set by the system
+	
+	Flow of Events: 
+	1. The technician activates the weather system
+	2. The temperature or weather symptoms triggers the system
+	3. The system automatically alters the cooling/heating in the base to adapt to the weather
+	4. Alerts are sent first to the technician, then to the rest of the members on the base for upcoming weather warning.
+	5. Depending on the severity, the technicians will undertake necessary action.
+	
+	Extensions:
+`	2A-There is a false alarm triggered.
+	The technician will go and deactivate the alerts
+	3A-The system fails to modify the cooling/heating to accomodate for the weather.
+	The technician will be called to manually change it.
+	The technician will also fix the issue which caused it to not change the heating/cooling
+	
+	
