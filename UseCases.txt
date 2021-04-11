@@ -9,15 +9,59 @@ Use Case 1: User Story 9
 	Flow of Events: 
 	1. The technician activates the weather system
 	2. The temperature or weather symptoms triggers the system
-	3. The system automatically alters the cooling/heating in the base to adapt to the weather
-	4. Alerts are sent first to the technician, then to the rest of the members on the base for upcoming weather warning.
-	5. Depending on the severity, the technicians will undertake necessary action.
+	3. The system automatically alters the cooling/heating in the base to ad	apt to the weather
+	4. Alerts are sent first to the technician, then to the rest of the memb	ers on the base for upcoming weather warning.
+	5. Depending on the severity, the technicians will undertake necessary a	ction.
 	
 	Extensions:
 `	2A-There is a false alarm triggered.
 	The technician will go and deactivate the alerts
-	3A-The system fails to modify the cooling/heating to accomodate for the weather.
+	3A-The system fails to modify the cooling/heating to accomodate for the 	weather.
 	The technician will be called to manually change it.
-	The technician will also fix the issue which caused it to not change the heating/cooling
+	The technician will also fix the issue which caused it to not change the 	heating/cooling
+	
+Use Case 2: User Story 7
+	Goal: To have self-updating storage software that sends alerts to techni	cians
+
+	Primary actor: Scientists
+	Secondary actors: Database, Technicians
+	Precondition: The self-updating software is implemented by the technicia	ns
+	Trigger: The system is turned on
+
+	Flow of events:
+	1.The storage system is turned on by a member on base
+	2.The system automatically checks for any updates 
+	3.The system will then initiate the update
+	4.The system then reboots and runs as normal
+	
+	Extensions
+	2A- There is no updates for the system to install
+	The system will then continue running as per usual
+	3A-The system has trouble installing the update
+	The technician will be sent an alert to investigate and manually go thro	ugh with the update.
+	3B-The system runs out of power or gets unplugged
+	The technician will again be sent alerts to investigate the alert.
+
+Use Case 3: User Story 4
+	Goal:To backup the data collected every 3 hours
+	Primary Actor:The scientists
+	Secondary Actors:Database, other members on base
+	Precondition: The database is constantly connected to an online cloud		which holds the backup data.
+	Trigger: The storage devices are connected to power.
+
+	Flow of events: 
+	1: The data is collected by the scientists
+	2: The data is logged on to the system
+	3: After every 3 hours, the storage devices backup the data collected to	the database
+	4: The database is connected to an online cloud which holds all the data	5: The system notifies the user that the data has been backed-up
+	
+	Extensions:
+	2A: The data logged on is incorrect
+	The scientists can overwrite the data file with the new correct data
+	2B: No new data is logged on
+	The system will still backup the previous data again, even though there		is no new data added
+	3A: The system fails to backup the data
+	The scientists will manually backup the data and inform the technician 		to investigate the issue
 	
 	
+
