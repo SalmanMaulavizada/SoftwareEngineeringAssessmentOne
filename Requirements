@@ -1,0 +1,5 @@
+Performance Requirements:
+1:The data storage system should be able to send the data collected to the online cloud storage every 3 hours.
+2:The backup power supply should be able to activate and supply power within 10 minutes of power outage
+3:The live stream of surveillance footage being broadcasted to the 'outside world' should have less than 1 second of delay time.
+ 
