@@ -7,3 +7,13 @@ User story 3: As a mechanic on base, i want the vehicles to be equipped with gps
 User story 4: As a scientist i need the data storage to be constantly backed up every 3 hours so that the data we collect has no risk of getting corrupted or lost.
 
 User story 5: As a technician on base, i want an extra set of solar panels and wind turbines in case they get damaged by the frequent blizzards, so that we can have more sources of backup power.
+
+User story 6: As a scientist. i want a live stream of all the surveillance footage to be sent to the 'outside world' so that others are aware of our situation in the base at all times.
+
+User story 7: As a technician i need the software systems in the base to be automated to update and send alerts when further assistance is required, so that it is more efficient for me to keep up with the systems and ensure they're running as they should.
+
+User story 8: As a farmer on base, i want the farming station to have automated temperature regulation and alerts sent to me, so that i can spend less time on the monitoring of the plants and more time preparing for the upcoming season.
+
+User story 9: As a technician on base, i want weather monitoring systems, wiht automated alerts, in place, so that in case of blizzards or other weather threats, we canbe aware, have adequate time to prepare, and minimise the possible damage.
+
+User story 10: As a scientist, i want to be equipped with a camera and gps tracking on my suit, accessible from the computers at base, so that the others at base are aware of my location and my activities at all times when i leave the base.
