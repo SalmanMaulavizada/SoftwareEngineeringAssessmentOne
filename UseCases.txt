@@ -52,7 +52,7 @@ Use Case 3: User Story 4
 	Flow of events: 
 	1: The data is collected by the scientists
 	2: The data is logged on to the system
-	3: After every 3 hours, the storage devices backup the data collected to	the database
+	3: The storage devices backup the data collected, to the database
 	4: The database is connected to an online cloud which holds all the data	5: The system notifies the user that the data has been backed-up
 	
 	Extensions:
