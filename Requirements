@@ -1,0 +1,15 @@
+Performance Requirements:
+1:The data storage system should be able to send the data collected to the online cloud storage every 3 hours.
+2:The backup power supply should be able to activate and supply power within 10 minutes of power outage
+3:The live stream of surveillance footage being broadcasted to the 'outside world' should have less than 1 second of delay time.
+
+Usability Requirements:
+1:The security software must allow base members to log in within 20 seconds on  average.
+2:The data-logging software should allow for users to save their data within 3  clicks.
+3.The surveillance footage must allow the user to start recording footage wit   the press of a single button
+
+Reliability Requirements:
+1:The surveillance software should be running 99.99% of the time.
+2.The automated saving feature of the storage software should fail on no more   than 0.1% of attempts.
+3:The vehicles on base should not fail to run more than 1 time in every 6       months.
+ 
