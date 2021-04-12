@@ -1,4 +1,4 @@
-User story 1: As a scientist, i want the security software to be running 24/7 so that i can conduct my research and data collection safely without any distracti ons from animals or weather hazards.
+User story 1: As a scientist, i want the security surveillance software to be running 24/7 so that i can conduct my research and data collection safely without any distracti ons from animals or weather hazards.
 
 User story 2: As a security guard, i want surveillance cameras to be equipped with night vision all over the base, so that i can monitor the base efficiently, especially during the winter season.
 

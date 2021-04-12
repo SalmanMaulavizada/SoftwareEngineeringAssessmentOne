@@ -43,7 +43,7 @@ Use Case 2: User Story 7
 	The technician will again be sent alerts to investigate the alert.
 
 Use Case 3: User Story 4
-	Goal:To backup the data collected every 3 hours
+	Goal:To backup the data collected
 	Primary Actor:The scientists
 	Secondary Actors:Database, other members on base
 	Precondition: The database is constantly connected to an online cloud		which holds the backup data.
