@@ -1,0 +1,17 @@
+There will be 2 teams working on the project. Both of these teams will be commencing their work on separate repositories. One of the repositories will be for the programs and softwares required for the project, the other repository will be of planning files and ideas for the project.
+Each team of developers will have up to 2 months to submit the work done.
+
+The first repository will be for all the coding needed for the project. There will be 3 branches in this repository, created at the start of the project. They will be named, 'test_programs', 'working_programs' and the 'master branch'. 
+The test_programs branch will include all the test coding and 'trial and error',for the programs. This 'test' phase should take 2 weeks.
+Once the test programs are at an adequate level, they will be merged with the 'working_programs' branch. 
+This branch holds all the working programs, where they will be further fine tuned and developed. These changes are minor and should take 5 days.
+Once the 'workin programs' are fine tuned enough, they will be merged to the master branch, where they will be reviewed by the senior developer. This merge will happen 1 day after the final 'fine tunes' have been applied to the 'working programs'.
+
+As each of the 'fine tune' changes are made to the programs, the developers should commit the changes using the command git commit -m " Insert Change Description Here".
+
+The other repository would include 3 branches as well, created at the start of the project. One of the branches will becalled " intial_ideas ". This branch will include the ideas of the project at an early stage. When developers or management come up with a new idea, it will be stored in one of the files in this branch.
+The second branch will be called "refining_ideas". These will include the files from "intial_ideas", which have been decided to work more on and explore further. This process should take a week, then  it will be merged with the "refining_ideas" branch using the git merge command.
+The final consultations and changes regarding the 'idea' files should take another 5 days, since they will not be significant changes. After the 5 days, these files will be merged to the master branch andreviewed by the senior developer.
+
+The review by the senior developers in both teams should take 3 days. Once it is complete, both teams will push their master branches to the central repository. This repository contains all the finalised files and programs for the project. The central repositories name will be "BaseProject" The command the developers will user to 'push' their repo will be:  git push -u BaseProject master .
+These version control plans will allow the developers to handle the project efficiently and safely.
